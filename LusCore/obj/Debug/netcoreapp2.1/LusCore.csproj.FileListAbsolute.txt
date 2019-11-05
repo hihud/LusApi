@@ -1,0 +1,9 @@
+E:\Project\LusApi\LusApi\LusCore\bin\Debug\netcoreapp2.1\LusCore.deps.json
+E:\Project\LusApi\LusApi\LusCore\bin\Debug\netcoreapp2.1\LusCore.dll
+E:\Project\LusApi\LusApi\LusCore\obj\Debug\netcoreapp2.1\LusCore.csprojAssemblyReference.cache
+E:\Project\LusApi\LusApi\LusCore\obj\Debug\netcoreapp2.1\LusCore.csproj.CoreCompileInputs.cache
+E:\Project\LusApi\LusApi\LusCore\obj\Debug\netcoreapp2.1\LusCore.AssemblyInfoInputs.cache
+E:\Project\LusApi\LusApi\LusCore\obj\Debug\netcoreapp2.1\LusCore.AssemblyInfo.cs
+E:\Project\LusApi\LusApi\LusCore\bin\Debug\netcoreapp2.1\LusCore.pdb
+E:\Project\LusApi\LusApi\LusCore\obj\Debug\netcoreapp2.1\LusCore.dll
+E:\Project\LusApi\LusApi\LusCore\obj\Debug\netcoreapp2.1\LusCore.pdb
