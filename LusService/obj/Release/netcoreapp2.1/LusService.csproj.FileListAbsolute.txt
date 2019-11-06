@@ -2,11 +2,7 @@ E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\LusService.deps.js
 E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\LusService.dll
 E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\LusService.pdb
 E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\LusCore.dll
-E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\Microsoft.IdentityModel.Tokens.dll
-E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.dll
 E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\LusCore.pdb
-E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\Microsoft.IdentityModel.Tokens.xml
-E:\Project\LusApi\LusApi\LusService\bin\Release\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.xml
 E:\Project\LusApi\LusApi\LusService\obj\Release\netcoreapp2.1\LusService.csprojAssemblyReference.cache
 E:\Project\LusApi\LusApi\LusService\obj\Release\netcoreapp2.1\LusService.csproj.CoreCompileInputs.cache
 E:\Project\LusApi\LusApi\LusService\obj\Release\netcoreapp2.1\LusService.AssemblyInfoInputs.cache

@@ -5,20 +5,29 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
+
 COPY ["LusApi/LusApi.csproj", "LusApi/"]
 RUN dotnet restore "LusApi/LusApi.csproj"
 COPY . .
-COPY ["LusApi/LusCore.csproj", "LusCore/"]
-RUN dotnet restore "LusApi/LusCore.csproj"
-COPY . .
-COPY ["LusApi/LusService.csproj", "LusService/"]
-RUN dotnet restore "LusApi/LusService.csproj"
-COPY . .
+#COPY ["LusCore/LusCore.csproj", "LusCore/"]
+#RUN dotnet restore "LusCore/LusCore.csproj"
+#COPY . .
+#COPY ["LusService/LusService.csproj", "LusService/"]
+#RUN dotnet restore "LusService/LusService.csproj"
+#COPY . .
 WORKDIR "/src/LusApi"
-#RUN dotnet build "LusApi.csproj" -c Release -o /app
+RUN dotnet build "LusApi.csproj" -c Release -o /app
+#WORKDIR "/src/LusCore"
+#RUN dotnet build "LusCore.csproj" -c Release -o /app
+#WORKDIR "/src/LusService"
+#RUN dotnet build "LusService.csproj" -c Release -o /app
+
+
 
 FROM build AS publish
 RUN dotnet publish "LusApi.csproj" -c Release -o /app
+#RUN dotnet publish "LusCore.csproj" -c Release -o /app
+#RUN dotnet publish "LusService.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
